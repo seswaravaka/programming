@@ -1,0 +1,21 @@
+/**
+The goal is to create a program that takes an integer input $n$ and prints a right-angled triangle pattern of stars (*). 
+The pattern starts with one star in the first row and increases by one star in each subsequent row until it reaches $n$ stars in the $n^{th}$ row.
+
+Pattern Visual (for $n = 4$)
+*
+**
+***
+****
+
+**/
+
+public class Main {
+  public static void main(String[] arg){
+    Main m = new Main();
+    m.printStars();
+  }
+  public void printStars(){
+
+  }
+}
