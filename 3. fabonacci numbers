@@ -1,0 +1,27 @@
+/**
+
+PROBLEM: FIBONACCI SEQUENCE                                                  
+----------------------------------------------------------------                
+DEFINITION:                                                                     
+   Generate the first 'n' numbers where each number is the                      
+   sum of the two preceding ones.                                               
+                                                                                
+MATHEMATICAL FORMULA:                                                           
+   F(n) = F(n-1) + F(n-2)                                                       
+   Starting values: F(0)=0, F(1)=1                                              
+                                                                                
+EXAMPLE (n=6):                                                                  
+   0, 1, 1, 2, 3, 5
+
+
+**/
+
+public class Main {
+  public static void main(String[] arg){
+    Main m = new Main();
+    m.fibonacci(10);
+  }
+  public void fibonacci(int n){
+
+  }
+}
