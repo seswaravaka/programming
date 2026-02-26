@@ -1,0 +1,26 @@
+/**
+
+  The objective is to write a program that takes an integer input $n$ (representing the number of rows in the top half) and prints a symmetrical diamond shape made of stars (*).
+  The diamond is composed of two parts:The Top Pyramid: Starts with 1 star and increases by 2 stars per row (to maintain symmetry).
+  The Bottom Pyramid: An inverted version of the top half, decreasing back down to 1 star.
+  
+  Visual Representation (for $n = 3$)Plaintext  
+  
+  * (Row 1: 2 spaces, 1 star)
+ *** (Row 2: 1 space, 3 stars)
+***** (Row 3: 0 spaces, 5 stars)
+ *** (Row 4: 1 space, 3 stars)
+  * (Row 5: 2 spaces, 1 star)
+
+
+**/
+
+  public class Main {
+  public static void main(String[] arg){
+    Main m = new Main();
+    m.printDiamond(3);
+  }
+  public void printDiamond(int n){
+
+  }
+}
