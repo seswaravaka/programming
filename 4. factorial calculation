@@ -16,14 +16,19 @@ CONSTRAINTS:
 EXAMPLE (n=5):                                                                  
    5 * 4 * 3 * 2 * 1 = 120
 
+Write both recursion and non recursion solutions.
+
 **/
 
 public class Main {
   public static void main(String[] arg){
     Main m = new Main();
     System.out.println(m.factorial(5));
+    System.out.println(m.factorialRec(5));
   }
   public int factorial(int n){
       
+  }
+  public int factorialRec(int n){
   }
 }
