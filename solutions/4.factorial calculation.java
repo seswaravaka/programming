@@ -1,0 +1,41 @@
+/**
+PROBLEM: FACTORIAL CALCULATION                                               
+----------------------------------------------------------------                
+DEFINITION:                                                                     
+   The factorial of a non-negative integer 'n' (n!) is the                      
+   product of all positive integers less than or equal to n.                    
+                                                                                
+MATHEMATICAL FORMULA:                                                           
+   n! = n * (n-1) * (n-2) * ... * 1                                             
+   Base Case: 0! = 1                                                            
+                                                                                
+CONSTRAINTS:                                                                    
+   - Input: Non-negative integer (n >= 0).                                       
+   - Output: Large numbers may require 'long' or 'BigInteger'.                  
+                                                                                
+EXAMPLE (n=5):                                                                  
+   5 * 4 * 3 * 2 * 1 = 120
+
+**/
+
+public class Main {
+  public static void main(String[] arg){
+    Main m = new Main();
+    System.out.println(m.factorialRec(5));
+  }
+  public int factorial(int n){
+      int v = 1;
+      while(n >1){
+          v = v * n;
+          n = n -1;
+      }
+      return v;
+  }
+  public int factorialRec(int n){
+      if(n>1){
+        return n *   factorialRec(n-1); 
+      } else {
+          return 1;
+      }
+  }
+}
