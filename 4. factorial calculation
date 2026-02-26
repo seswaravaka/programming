@@ -21,9 +21,9 @@ EXAMPLE (n=5):
 public class Main {
   public static void main(String[] arg){
     Main m = new Main();
-    m.factorial(5);
+    System.out.println(m.factorial(5));
   }
-  public void factorial(int n){
+  public int factorial(int n){
       
   }
 }
